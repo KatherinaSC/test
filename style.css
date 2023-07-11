@@ -82,19 +82,19 @@ p {
   line-height: 24px;
 }
 
-.header-link {
+.header__link {
   transition: color 0.3s ease-in-out;
 }
 
 
-.header-link:not(:last-child){
+.header__link:not(:last-child){
   margin-right: var(--margin);
   padding-left: 4px;
   font-weight: 500;
 }
 
 
-.header-link:hover {
+.header__link:hover {
   color: var(--simple-text);
 }
 
@@ -161,11 +161,11 @@ p {
     border-radius: 0;
   }
 
-  .header-link:last-child {
+  .header__link:last-child {
     display: none;
   }
 
-  .header-link:not(:last-child) {
+  .header__link:not(:last-child) {
     margin-right: 0;
   }
 }
